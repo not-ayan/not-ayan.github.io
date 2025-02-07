@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && gh-pages -d out"
   },
+  "homepage": "https://github.com/not-ayan/not-ayan.github.io",
   "dependencies": {
     "@cloudinary/url-gen": "^1.21.0",
     "@emotion/is-prop-valid": "latest",
